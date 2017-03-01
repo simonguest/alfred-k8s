@@ -16,4 +16,4 @@ An Alfred Workflow for Kubernetes
 
 ## Installing
 
-- Download the [Kubernetes.alfredworkflow](https://github.com/simonguest/alfred-k8s/blob/master/Kubernetes.alfredworkflow) file. Double click to add it to Alfred.
+- Download the [Kubernetes.alfredworkflow](https://github.com/simonguest/alfred-k8s/raw/master/Kubernetes.alfredworkflow) file. Double click to add it to Alfred.
