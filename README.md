@@ -1,6 +1,6 @@
 #alfred-k8s
 
-An Alfred workflow for Kubernetes
+An Alfred Workflow for Kubernetes
 
 ##Prerequisites
 
