@@ -13,3 +13,7 @@ An Alfred Workflow for Kubernetes
 - KGP: Kubernetes Get Pods. Lists all pods. If running, press enter to open up terminal/bash to that pod.
 - KDP: Kubernetes Delete Pod. Delete a pod.
 - KP: Kubernetes Proxy. Open up a new proxy session and Kubernetes Dashboard.
+
+## Installing
+
+- Download the Kubernetes.alfredworkflow file. Double click to add it to Alfred.
