@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 echo "{\"rerun\": 5, \"items\": ["
 pods=`/usr/local/bin/kubectl get pods | tail -n +2 | awk '{
-if ($3 == "Running")
-    printf "{\"title\":\"%s\",\"arg\":\"%s\",\"subtitle\":\"Ready:%s|Status:%s|Restarts:%s|Age:%s\"}\n", $1, $1, $2, $3, $4, $5;
-else
-    printf "{\"valid\":\"false\",\"title\":\"%s\",\"arg\":\"%s\",\"subtitle\":\"Ready:%s|Status:%s|Restarts:%s|Age:%s\"}\n", $1, $1, $2, $3, $4, $5;
+printf "{\"title\":\"%s\",\"arg\":\"%s\",\"subtitle\":\"Ready:%s|Status:%s|Restarts:%s|Age:%s\"}\n", $1, $1, $2, $3, $4, $5;
 }' | sort`
 size=`echo "$pods" | wc -l`
 index=0
