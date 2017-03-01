@@ -9,10 +9,21 @@ An Alfred Workflow for Kubernetes
 
 ## Supported Commands
 
-- KGC: Kubernetes Get Contexts. Lists all available contexts. Enter to switch to that context.
-- KGP: Kubernetes Get Pods. Lists all pods. If running, press enter to open up terminal/bash to that pod.
-- KDP: Kubernetes Delete Pod. Delete a pod.
-- KP: Kubernetes Proxy. Open up a new proxy session and Kubernetes Dashboard.
+**kgc**: Kubernetes Get Contexts. Lists all available contexts. Enter to switch to that context.
+
+![kgc Command](screenshots/kgc.png)
+
+**kgp**: Kubernetes Get Pods. Lists all pods. If running, press enter to open up terminal/bash to that pod.
+
+![kgp Command](screenshots/kgp.png)
+
+**kdp**: Kubernetes Delete Pod. Delete a pod.
+
+![kdp Command](screenshots/kdp.png)
+
+**kp**: Kubernetes Proxy. Open up a new proxy session and Kubernetes Dashboard.
+
+![kp Command](screenshots/kp.png)
 
 ## Installing
 
